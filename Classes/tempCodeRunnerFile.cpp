@@ -1,5 +1,4 @@
-
-    // //STATICALLY
+/ //STATICALLY
     // hero h1;
     // h1.name = "udit";
     // h1.setrollno(20);
