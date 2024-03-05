@@ -18,6 +18,13 @@ class hero {
         return rollno;
     }
 
+    hero(){
+    }
+
+    hero (int rno , string name){
+        this -> name = name;
+        this -> rollno = rno;
+    }
 
 
     private:
@@ -27,8 +34,16 @@ class hero {
 
 int main() {
 
+    hero q1(1,"udit");
+    cout << q1.getrollno()<< "\n";
+    cout << q1.name << "\n";
 
-    //STATICALLY
+
+    //copy constructor
+    hero m1(q1);
+
+
+    // //STATICALLY
     hero h1;
     h1.name = "udit";
     h1.setrollno(20);
